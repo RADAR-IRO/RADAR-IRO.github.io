@@ -1,5 +1,7 @@
-body { width: max(65%, 30rem); margin: auto; }
+body { width: max(60%, 30rem); margin: auto; }
 nav ul { text-align: center; }
 nav ul li { display: inline-block; }
 footer ul { text-align: center; }
 footer ul li { display: inline-block; }
+aside section h1 { display: inline-block; vertical-align: top; width: min(32%,10em); }
+aside section ul { display: inline-block; width: 58%; }
