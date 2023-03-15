@@ -1,2 +1,4 @@
-ul { text-align: center; }
-ul li { display: inline-block; }
+nav ul { text-align: center; }
+nav ul li { display: inline-block; }
+footer ul { text-align: center; }
+footer ul li { display: inline-block; }
