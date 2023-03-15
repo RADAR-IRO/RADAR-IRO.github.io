@@ -5,3 +5,4 @@ footer ul { text-align: center; }
 footer ul li { display: inline-block; }
 aside h3 { display: inline-block; vertical-align: top; width: min(32%,10em); }
 aside ul { display: inline-block; width: 58%; }
+ol { list-style: none; }
