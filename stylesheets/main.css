@@ -7,5 +7,5 @@ aside h3 { display: inline-block; vertical-align: top; width: min(32%,10em); }
 aside ul { display: inline-block; width: 58%; }
 .references ol { list-style: none; }
 .gallerie { display: grid; margin: auto; gap: 1em; }
-.square { width: 300px; height: 300px; }
+.square { width: 10em; height: 10em; object-fit: cover; }
 img {}
