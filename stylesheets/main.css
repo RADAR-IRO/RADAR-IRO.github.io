@@ -6,6 +6,6 @@ footer ul li { display: inline-block; }
 aside h3 { display: inline-block; vertical-align: top; width: min(32%,10em); }
 aside ul { display: inline-block; width: 58%; }
 .references ol { list-style: none; }
-.gallerie { display: grid; margin: auto; gap: 1em; }
-.square { width: 20em; height: 20em; object-fit: cover; }
+.gallerie { display: grid; margin: auto; gap: 1%; grid-template-columns: repeat(3, 30%); grid-auto-flow: row; }
+.square { width: 100%; aspect-ratio: 1; object-fit: cover; }
 img {}
