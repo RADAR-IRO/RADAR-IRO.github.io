@@ -1,11 +1,137 @@
-body { width: max(60%, 30rem); margin: auto; }
-nav ul { text-align: center; }
-nav ul li { display: inline-block; }
-footer ul { text-align: center; }
-footer ul li { display: inline-block; }
-aside h3 { display: inline-block; vertical-align: top; width: min(32%,10em); }
-aside ul { display: inline-block; width: 58%; }
-.references ol { list-style: none; }
-.gallerie { display: grid; margin: auto; gap: 1%; grid-template-columns: repeat(3, 30%); grid-auto-flow: row; }
-.square { width: 100%; aspect-ratio: 1; object-fit: cover; }
-img {}
+@font-face {
+    font-family: "Noto Sans";
+    src: local("Noto Sans"), url("../fonts/NotoSans-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: local("Noto Sans"), url("../fonts/NotoSans-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: local("Noto Sans"), url("../fonts/NotoSans-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Noto Sans";
+    src: local("Noto Sans"), url("../fonts/NotoSans-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    width: max(60%, 30rem);
+    margin: auto;
+    font-family: "Noto Sans";
+    font-weight: normal;
+}
+
+header {
+    font-weight: bold;
+}
+
+body > header {
+    text-align: center;
+    border-bottom: 1px solid #666;
+    margin-bottom: 20px;
+}
+
+body > header h1 {
+    font-size: 48px;
+    margin: 30px 0px;
+    line-height: 1;
+}
+
+body > header h2 {
+    font-size: 32px;
+    line-height: 1;
+    margin: 20px 0;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0px 3px 0px 3px;
+    line-height: 1;
+    padding: 12px;
+    padding-bottom: 10px;
+    background: #006cb8;
+    border-bottom: 2px solid #006cb8;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    color: black;
+    background: #abd4ff;
+}
+
+a {
+    color: #006cb8;
+}
+
+article {
+    background-color: #eee;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+article h1 {
+    margin: 0px;
+}
+
+article section p {
+    margin: 12px 0px 12px 0px;
+}
+
+article section p:last-child {
+    margin-bottom: 0px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+aside h3 {
+    display: inline-block;
+    vertical-align: top;
+    width: min(32%, 10em);
+}
+
+aside ul {
+    display: inline-block;
+    width: 58%;
+}
+
+.references ol {
+    list-style: none;
+}
+
+.gallerie {
+    display: grid;
+    margin: auto;
+    gap: 1%;
+    grid-template-columns: repeat(3, 30%);
+    grid-auto-flow: row;
+}
+
+.square {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
