@@ -131,7 +131,7 @@ aside ul {
 
 .gallerie {
     display: grid;
-    margin: auto;
+    margin-bottom: 2rem;
     gap: 1%;
     grid-template-columns: repeat(3, 30%);
     grid-auto-flow: row;
