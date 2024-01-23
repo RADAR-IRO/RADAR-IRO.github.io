@@ -40,7 +40,7 @@ INDTAIL=`cat <<EOF
 EOF
 `
 
-echo $INDHEAD > public/index.html
+echo $INDHEAD > docs/index.html
 
 for FILENAME in $(ls rencontres/ | sort -r | head)
 do
@@ -58,7 +58,7 @@ do
         </article>
 EOT
 `
-  echo $ARTICLE >> public/index.html
+  echo $ARTICLE >> docs/index.html
 
   #RENCONTRES
   PAGE=`cat <<-EOT
@@ -93,7 +93,7 @@ EOT
 </html>
 EOT
 `
-  echo $PAGE >> public/rencontres/${FILENAME}.html
+  echo $PAGE > docs/rencontres/${FILENAME}.html
 done
 
-echo $INDTAIL >> public/index.html
+echo $INDTAIL >> docs/index.html
