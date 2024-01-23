@@ -1,0 +1,26 @@
+ALT=`cat <<EOF
+L'antenne tient debout et fier
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>On a complété la monture pour notre antenne et on l'a testée. <a href="/gallerie/completion-antenne.html">Voici des photos dans la gallerie.</a></p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Résumé des activités jusqu'au 15 mai 2023 - Complétion de l'antenne
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>Depuis la dernière mise à jour sur ce site, l'antenne a beaucoup progressée. Elle peut maintenant tenir sur un trépieds grâce à un boitier qui a été conçu pour la fixer.</p>
+<p>Robin a pu nous fournir des trépieds pour supporter l'antenne, gracieuseté du <a href="https://diro.umontreal.ca/ressources-services/clubs-techniques-parascolaires-du-diro/">DIRO</a> (merci :)).</p>
+<p>Simon a mis son effort dans la conception du boitier avec un design préliminaire puis une modélisation des morceaux dans <a href="https://openscad.org/">OpenSCAD</a>. Les fichiers STLs et le fichier OpenSCAD sont disponible <a href="/documents/impression3d_NIXXON/radar-antenne-mount-bottom-avectolerences.stl">i</a><a href="/documents/impression3d_NIXXON/radar-antenne-mount-centre-avectolerences.stl">c</a><a href="/documents/impression3d_NIXXON/radar-antenne-mount-top-avectolerences.stl">i</a> et <a href="/documents/impression3d_NIXXON/mountantenne.scad">ici</a> respectivement.</p>
+<p>Émerick a calculé les estimés de temps que prendrait l'impression et Mattéo s'est chargé de passer à <a href="https://bib.umontreal.ca/travailler/les-bibliotheques/mathematiques-informatique">la bibliotèque de math et info</a> pour l'impression. C'est cool que la bibliotèque nous offre ce service gratuitement; shout out à Indiana!</p>
+<p>On a testé l'antenne et on semble capter les satellites NOAA pendant plus longtemps, ce qui nous donne une image plus grande.</p>
+<p>Maxim a modélisé les éléments de l'antenne dans blender et en a extrait un logo pour le club! Très joli :)</p>
+<p>Finalement, il y a eu le BBQ de l'asso qui a été super fun! On n'a pas pu s'empêcher d'y faire une capture du signal de NOAA :P</p>
+<p><a href="/gallerie/completion-antenne.html">Voici la gallerie des photos qui résument les avancées</a></p>
+EOF
+`
