@@ -1,0 +1,19 @@
+ALT=`cat <<EOF
+Première rencontre
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>Le plan pour la première rencontre du club le mercredi 22 mars est d'organiser le futur du club. À l'ordre du jour: logo de club, inscription sur la <a href="/membres.html">liste des membres</a>, discussions pour sonder l'intérêt par rapport aux différents <a href="/activites.html">projets proposés</a> et autres discussions préliminaires en lien avec les projets.</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Rencontre du 22 mars 2023 - Première rencontre du club
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>Le plan pour la première rencontre du club est d'organiser le futur du club. À l'ordre du jour: logo de club, inscription sur la <a href="/membres.html">liste des membres</a>, discussions pour sonder l'intérêt par rapport aux différents <a href="/activites.html">projets proposés</a> et autres discussions préliminaires en lien avec les projets.</p>
+EOF
+`

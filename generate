@@ -1,0 +1,99 @@
+#!/bin/env bash
+
+INDHEAD=`cat <<EOF
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Club RADAR</title>
+    <link href="./stylesheets/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <hgroup>
+        <img src="logo.svg" alt="" id="radar-logo" />
+        <h1>RADAR</h1>
+      </hgroup>
+    </header>
+    <nav>
+      <a href="./index.html">Accueil</a>
+      <a href="./activites.html">Activités</a>
+      <a href="./membres.html">Membres</a>
+      <a href="./galerie.html">Galerie</a>
+      <a href="./about.html">À propos du club</a>
+    </nav>
+    <section>
+EOF
+`
+INDTAIL=`cat <<EOF
+    </section>
+    <footer>
+      <ul>
+        <li><a href="./about.html">à propos</a></li>
+        <li><a href="https://github.com/RADAR-IRO">github</a></li>
+        <li><a href="mailto:radarclub@iro.umontreal.ca">contact</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
+EOF
+`
+
+echo $INDHEAD > public/index.html
+
+for FILENAME in $(ls rencontres/ | sort -r | head)
+do
+  source rencontres/${FILENAME}
+
+  #INDEX.HTML
+  ARTICLE=`cat <<-EOT
+        <article>
+          <header>
+            <a href="./rencontres/${FILENAME}.html"><h1>${ALT}</h1></a>
+          </header>
+          <section>
+            ${RESUME}
+          </section>
+        </article>
+EOT
+`
+  echo $ARTICLE >> public/index.html
+
+  #RENCONTRES
+  PAGE=`cat <<-EOT
+<!DOCTYPE html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Détails de rencontre du RADAR</title>
+    <link href="../stylesheets/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <hgroup>
+        <img src="../logo.svg" alt="" id="radar-logo" />
+        <h1>Détails de rencontre du RADAR</h1>
+        <h2>${TITRE}</h2>
+      </hgroup>
+    </header>
+    <section>
+    	${CONTENU}
+    </section>
+    <a href="/">Retour à l'accueil</a>
+    <footer>
+        <ul>
+            <li><a href="/about.html">à propos</a></li>
+            <li><a href="https://github.com/RADAR-IRO">github</a></li>
+            <li><a href="mailto:radarclub@iro.umontreal.ca">contact</a></li>
+        </ul>
+    </footer>
+  </body>
+</html>
+EOT
+`
+  echo $PAGE >> public/rencontres/${FILENAME}.html
+done
+
+echo $INDTAIL >> public/index.html

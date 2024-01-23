@@ -1,0 +1,20 @@
+ALT=`cat <<EOF
+<em>It's alive!</em>
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>On a commencé et terminé la construction d'une <a href="https://www.qsl.net/py4zbz/DCA.pdf">antenne double cross</a> optimisée pour 137MHz! <a href="/gallerie/construction-antenne.html">Voici des photos de la construction.</a></p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Rencontre du 26 avril 2023 - Construction d'une antenne
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>À la rencontre de cette semaine on a construit une <a href="https://www.qsl.net/py4zbz/DCA.pdf">antenne style double cross</a>. On ne l'a pas encore testé, malheureusement, alors restez attentif pour la suite!</p>
+<p><a href="/gallerie/construction-antenne.html">Voici la gallerie des photos qui résument la construction de l'antenne</a></p>
+EOF
+`
