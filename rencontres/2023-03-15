@@ -1,0 +1,25 @@
+ALT=`cat <<EOF
+Présentation du club - <em>short and sweet</em>
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>Le 16 mars 2023 a eu lieu la courte présentation du club. Dans les 15 minutes qu'elle a durée, l'objectif du club, des activités proposées, et les modalités logistiques du club ont été présentés.</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Présentation du club
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>Le 16 mars 2023 a eu lieu la courte présentation du club. Dans les 15 minutes qu'elle a durée, l'objectif du club, des activités proposées, et les modalités logistiques du club ont été présentés.</p>
+<p>Aujourd'hui j'ai présenté le but du club, quelques activités que je propose qu'on fasse, et les modalités logistiques du club.</p>
+<p>Le but du club est de donner aux membres de la communauté du <a href="https://plancampus.umontreal.ca/montreal/?tx_udemplancampus_pi1%5Bbuilding%5D=376&tx_udemplancampus_pi1%5Baction%5D=show&tx_udemplancampus_pi1%5Bcontroller%5D=Building&cHash=43ca17f8d3bcc8f02b40497fb5a5614a">pavillon André-Aisenstadt</a> de l'UdeM interessés par l'intersection entre l'informatique et l'espace un endroit pour se rassembler.</p>
+<p>Les activités que j'ai proposé sont la <a href="/activites/nbody.html">simulation gravitationnelle numérique à n corps</a>, la <a href="/activites/downlink.html">construction d'un radiotélescope/radio pour télécharger des données satellites</a> et de s'en servir pour télécharger des données d'un satellite, l'établissement du RADAR comme <a href="/activites/HAM.html">club de radio amateur</a>, une <a href="/activites/eclipse.html">sortie</a> le jour de l'éclipse de 2024, et finalement un <a href="/activites/missioncontrol.html"><em>mission control party</em></a>. <a href="/activites.html">Cliquez ici pour plus de détails par rapport aux activités du club</a>.</p>
+<p>La communication au sein du club se fera par discord sur le <a href="https://discord.gg/aj8GuwN">serveur de l'association étudiante</a> dans la section des clubs: la chaîne "RADAR".</p>
+<p><a href="/documents/presentation-radar.pdf">Voici les diapositives de la présentation.</a></p>
+<p><em>- Simon</em></p>
+EOF
+`

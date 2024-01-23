@@ -1,0 +1,20 @@
+ALT=`cat <<EOF
+Premier contact!
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>Avec l'antenne et la radio SDR que Robin nous a commandé nous avons faites 3 sorties dans le froid afin de découvrir qu'au final, il ne faisait pas beau à Montréal (l'île était recouverte de nuages, vue de l'espace). <a href="/gallerie/sortie5avril.html">C'est vraiment le genre d'expérience qu'il faut voir pour comprendre.</a></p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Rencontre du 5 avril 2023 - Premier contact!
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>Avec l'antenne et la radio SDR que Robin nous a commandé nous avons faites 3 sorties dans le froid afin de découvrir qu'au final, il ne faisait pas beau à Montréal (l'île était recouverte de nuages, vue de l'espace). <a href="/gallerie/sortie5avril.html">C'est vraiment le genre d'expérience qu'il faut voir pour comprendre.</a></p>
+<p>Mattéo, Médéric, Sam et Simon ont aussi avancé dans l'écriture de l'intégrateur numérique la veille. L'étape de prédiction de l'algorithme de prédiction-correction a été complétée pour le problème de kepler. En voici un résultat, une simulation non-exacte de l'orbite de la Lune autour de la Terre: <a href="/documents/anim_60fps_Terre_Lune.gif">ici</a></p>
+EOF
+`

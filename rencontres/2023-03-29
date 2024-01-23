@@ -1,0 +1,20 @@
+ALT=`cat <<EOF
+Trivia - connais-tu tes bandes de l'ionosphère?
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>À cette rencontre, nous avons passé une douzaine de questions d'un <a href="https://apc-cap.ic.gc.ca/pls/apc_anon_f/apeg_practice.practice_form?p_level_id=2">examen de radio amateur généré par le site du gouvernement du Canada</a> en mode jeu trivia. Nous avons bien réussi étant donné le manque d'étude des participant.e.s. Ensuite, nous avons entamé la planification du <a href="/activites/nbody.html">projet d'intégrateur à n-corps</a>.</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Rencontre du 29 mars 2023 - Activité trivia
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>En attendant de recevoir l'antenne et la radio SDR que Robin nous a commandé, nous avons passé une douzaine de questions d'un <a href="https://apc-cap.ic.gc.ca/pls/apc_anon_f/apeg_practice.practice_form?p_level_id=2">examen de radio amateur généré par le site du gouvernement du Canada</a> en mode "jeu trivia". Nous avons bien réussi étant donné le manque d'étude des participant.e.s.</p>
+<p>Nous avons, par la suite, entamé la planification du <a href="/activites/nbody.html">projet d'intégrateur à n-corps</a>.</p>
+EOF
+`

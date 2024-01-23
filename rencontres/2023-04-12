@@ -1,0 +1,20 @@
+ALT=`cat <<EOF
+Du progrès ce n'est pas toujours du progrès, mais parfois ce l'est
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>Pendant la rencontre on a développer le code de l'intrégrateur numérique, nous donnant un <a href="/documents/anim_60fps_Terre_Lune_avec_correcteur.gif">résultat innatendu</a>. En soirée, par contre, on a pu produire les <a href="/gallerie/sortie12avril.html">nos meilleures images</a> tirées des satellites NOAA 15, NOAA18 et NOAA 19.</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Rencontre du 12 avril 2023 - Du progrès ce n'est pas toujours du progrès, mais parfois ce l'est
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>Aux heures de rencontre en après midi, Sam, Emma, et Simon on avancé dans l'écriture de l'intégrateur numérique de simulation gravitationnelle à n corps. Malheureusement, les additions incluent au moin un bogue. <a href="/documents/anim_60fps_Terre_Lune_avec_correcteur.gif">Vous pourrez sans doute voir qu'il y a un problème...</a></p>
+<p>Plus tard dans la journée, Médéric, Mattéo et Samy sont sortis pour écouter une passe de satellite. <a href="/gallerie/sortie12avril.html">Ils en ont eu les meilleurs résultats jusqu'à maintenant</a>. On a pu avoir ces résultats génials en partie à cause du décodeur d'image APT que Mattéo et Élie ont écrit, bluedot, qui <a href="https://github.com/RADAR-IRO/bluedot">se trouve sur le github du RADAR.</a></p>
+EOF
+`

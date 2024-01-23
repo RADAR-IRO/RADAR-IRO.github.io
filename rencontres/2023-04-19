@@ -1,0 +1,20 @@
+ALT=`cat <<EOF
+On aime Jodie Foster et elle aime son père
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>Lors de cette rencontre on a simplement écouté le film <a href="https://www.imdb.com/title/tt0118884/">Contact de 1997</a> pour alléger la charge mentale des membres du club pendant la fin de session.</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Rencontre du 19 avril 2023 - On aime Jodie Foster et elle aime son père
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>On a simplement écouter <a href="https://www.imdb.com/title/tt0118884/">Contact (1997)</a> en raison des examens finaux.</p>
+<p><a href="https://en.wikipedia.org/wiki/Mike_Alder#Newton's_flaming_laser_sword"><img src="/documents/newtons-flaming-laser-sword.png" alt="L'épée laser enflammée de Newton"></a></p>
+EOF
+`
