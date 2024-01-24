@@ -1,0 +1,21 @@
+ALT=`cat <<EOF
+Field day 2023
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>Simon, Mattéo, et Maxim se rendent à Point au Trembles pour assister à l'UMF qui participe au field day.</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Sortie du 24 juin 2023 - Field day
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>On a appris en écoutant les ondes que l'UMF, <a href="http://ve2syq.myqnapcloud.com/ve2ums/">l'union métropolitaine des sans-filistes</a>, le club de radio amateur Montréalais francophone par excellence allait participer au <a href="https://en.wikipedia.org/wiki/Field_Day_(amateur_radio)">Field Day</a> annuel dans un parc à coté d'une école à Point au Trembles. Certains d'entre nous y sommes allés pour voir comment ça se passe et demander des conseils pour nouveaux amateurs.</p>
+<p>On était de loin les plus jeunes et l'UMF semblait tout aussi heureux de nous y voir que l'on était d'y être, c'est à dire heureux.</p>
+<p>Voici une photo du gear dans la tente : <a href="/gallerie/fieldday.html">photo</a></p>
+EOF
+`

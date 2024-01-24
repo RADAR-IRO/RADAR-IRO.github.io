@@ -1,0 +1,20 @@
+ALT=`cat <<EOF
+À la poursuite de LEDSAT
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>Nous avons tenté d'entendre LEDSAT mais n'avons malheureusement pas réussi :/</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+À la poursuite de LEDSAT
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>L'agence spatiale européenne on annoncé que LEDSAT était au bout de ses jours et à lancé une compétition pour savoir quel radioamateur ou radioamatrice pourrait contacter le satellite en dernier. Malheureusement, nous n'avons pas nos certificat de radioamateur pour pouvoir transmettre, mais l'ESA offre des cartes QSL spéciales pour les radioamateurs qui prouvent avoir entendu LEDSAT.</p>
+<p>Nous avions tenter d'écouter LEDSAT jusqu'à la fin de la compétition en vain.</p>
+EOF
+`
