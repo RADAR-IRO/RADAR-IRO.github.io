@@ -1,0 +1,21 @@
+ALT=`cat <<EOF
+Un tour de PolyOrbite
+EOF
+`
+
+RESUME=`cat <<EOF
+<p>On s'est fait invité pour visiter <a href="https://polyorbite.com/">PolyOrbite</a> après une rencontre chanceuse. On est évidemment passé par le wagon de métro de Poly.</p>
+EOF
+`
+
+TITRE=`cat <<EOF
+Rapport de la visite de PolyOrbite du 7 juin 2023
+EOF
+`
+
+CONTENU=`cat <<EOF
+<p>Un membre de <a href="https://polyorbite.com/">PolyOrbite</a> était à André-Aisenstadt et a remarqué Nixxon dans le local des clubs pendant que Simon y travaillait. Il a donc inviter le RADAR à faire un tour chez PolyOrbite.</p>
+<p>Ils font un cubesat et on besoin d'une groundstation. Ils proposent donc que le RADAR contribue au projet en faisant le logiciel pour la groundstation. En échange pour sa contribution, le RADAR aura une timeshare de l'utilisation de la groundstation!</p>
+<p><a href="/gallerie/visite-polyorbite.html">Les photos de la visite.</a></p>
+EOF
+`
